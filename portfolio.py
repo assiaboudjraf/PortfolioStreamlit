@@ -71,12 +71,12 @@ if section == "Accueil":
         """)
         st.download_button(
             label="Télécharger mon CV",
-            data=open("Z:\BUT3\Data Viz\AssiaBoudjraf_CV.pdf", "rb").read(),
+            data=open("AssiaBoudjraf_CV.pdf", "rb").read(),
             file_name="AssiaBoudjraf_CV.pdf",
             mime="application/pdf"
         )
     with col2:
-        img = Image.open("Z:\BUT3\Data Viz\image.jpg")
+        img = Image.open("image.jpg")
         st.image(img, width=350)
     
     placeholder = st.empty()
@@ -109,7 +109,7 @@ Passionnée par les données et leur pouvoir décisionnel, je m’investis dans 
         """)
 
     with col2:
-        img = Image.open("Z:\BUT3\Data Viz\sas.png")
+        img = Image.open("sas.png")
         st.image(img, width=400)
 
 
@@ -137,7 +137,7 @@ elif section == "Éducation":
     st.header("Éducation")
     st.subheader("IUT Paris Rives de Seine - BUTSD3 VCOD FA")
     st.write("Spécialisation en Visualisation et Conception d'Outils Décisionnels")
-    st.image("Z:/BUT3/Data Viz/upc.jpg", width=400)
+    st.image("upc.jpg", width=400)
     
     st.subheader("Lycée Maurice Utrillo - Baccalauréat Général (Mention Bien)")
     st.write("""
@@ -156,32 +156,32 @@ elif section == "Projets":
     (
         "Enquête sur l’IA",
         "Projet en groupe visant à réaliser un sondage auprès des étudiants et du personnel universitaire afin d’évaluer l’utilisation et la perception de l’intelligence artificielle dans le cadre scolaire. L’objectif était de recueillir des données qualitatives et quantitatives sur l’intégration de l’IA dans les méthodes d’enseignement et d’apprentissage, aussi bien du point de vue des enseignants que des élèves. Ce travail a inclus la conception, la diffusion et l’analyse d’un questionnaire spécifique.",
-        "Z:/BUT3/Data Viz/ia.jpg"
+        "ia.jpg"
     ),
     (
         "Concours Dataviz",
         "Participation collective à un concours de datavisualisation où nous avons conçu et développé plusieurs tableaux de bord interactifs à l’aide de PowerBI. Ce projet nous a permis de travailler sur la présentation visuelle de données complexes, afin de faciliter leur interprétation et de répondre à des problématiques concrètes via des outils graphiques performants.",
-        "Z:/BUT3/Data Viz/courbe.jpg"
+        "courbe.jpg"
     ),
     (
         "Structuration données film",
         "Projet en groupe consistant à traiter et restructurer des données issues de fichiers CSV portant sur des informations relatives à des films. En utilisant Python, nous avons automatisé la transformation et le nettoyage des données pour les rendre exploitables dans des analyses ultérieures, améliorant ainsi la qualité et la cohérence des datasets.",
-        "Z:/BUT3/Data Viz/cinema.jpg"
+        "cinema.jpg"
     ),
     (
         "Implémentation commerce",
         "Travail collaboratif visant à aider un commerce à déterminer le meilleur emplacement pour son installation. Nous avons extrait des données à partir d’une base SQL puis réalisé une analyse approfondie sur Excel en croisant différentes variables économiques et géographiques, dans le but de proposer des recommandations basées sur des données concrètes.",
-        "Z:/BUT3/Data Viz/commerce.jpg"
+        "commerce.jpg"
     ),
     (
         "Digitalisation commerces parisiens",
         "Projet de groupe orienté vers la digitalisation des commerces parisiens, impliquant l’ajout et la mise à jour de données dans la base BCOM2023 via des scripts Python. Ce travail a permis d’enrichir et de structurer une base de données essentielle pour des analyses urbaines et commerciales, contribuant ainsi à la modernisation des outils de suivi des commerces.",
-        "Z:/BUT3/Data Viz/logo_apur.jpg"
+        "logo_apur.jpg"
     ),
     (
         "Efficacité sonde médicale",
         "Projet collectif portant sur le nettoyage, le traitement et l’analyse de données issues de sondes médicales, réalisé sous RStudio. Le but était d’évaluer l’efficacité des dispositifs à partir de données brutes, en produisant un rapport détaillé incluant des visualisations et recommandations pour améliorer l’usage clinique de ces sondes.",
-        "Z:/BUT3/Data Viz/medical.jpg"
+        "medical.jpg"
     )
 ]
 
