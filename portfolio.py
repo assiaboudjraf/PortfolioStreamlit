@@ -235,7 +235,7 @@ elif section == "Application":
     st.header("Application : Analyse des défibrillateurs RATP")
 
     # --- Chargement des données ---
-    df = pd.read_csv("Z:/BUT3/Data Viz/Portfolio/defibrillateurs-du-reseau-ratp.csv", sep=";")
+    df = pd.read_csv("defibrillateurs-du-reseau-ratp.csv", sep=";")
 
     # --- Préparation des données ---
     df.rename(columns={
